@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+<body>
+    <header class="head">
+        <section class="search">
+            <div class="searchCon">
+                <i class="iconfont icon-sousuo"></i>
+                <span>手机垃圾删除技巧</span>
+            </div>
+        </section>
+    </header>
+    <section class="container">container</section>
+    <footer class="foot">foot</footer>
+
+    <script>
+        window.onload = function() {
+            let html = document.querySelector("html");
+            html.style.fontSize = html.offsetWidth / 750 * 100 + "px";
+            addEventListener('resize', function() {
+                html.style.fontSize = html.offsetWidth / 750 * 100 + "px";
+            }, false);
+        }
+    </script>
+</body>
+</html>
