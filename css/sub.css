@@ -1,0 +1,19 @@
+/* container */
+.container .con{
+
+}
+
+.container .con .video_pic{
+    width: 100%;
+}
+
+.container .con .description{
+    height: 110px;
+    background-color: #20dfcf;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
