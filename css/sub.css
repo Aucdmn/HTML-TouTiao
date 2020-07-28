@@ -1,19 +1,70 @@
 /* container */
 .container .con{
-
+    background-color: #f4f5f6;
+    padding-bottom: 0.12rem;
 }
 
 .container .con .video_pic{
     width: 100%;
 }
 
-.container .con .description{
-    height: 110px;
-    background-color: #20dfcf;
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.container .con .videoDes{
+    height: 1.1rem;
+    background-color: #ffffff;
 }
+
+.videoDes .description{
+    line-height: 0.7rem;
+    padding-top: 0.21rem;
+    padding-left: 0.3rem;
+    font-size: 0.25rem;
+}
+
+.description img{
+    width: 0.7rem;
+    padding-right: 0.16rem;
+}
+
+.description .name{
+    color: #222222;
+    font-weight: bold;
+}
+
+.description .line{
+    padding-left: 0.16rem;
+    padding-right: 0.18rem;
+    color: #e8e8e8
+}
+
+.description .follow{
+    color: #f85959;
+}
+
+.videoDes .comment{
+    padding-top: 0.34rem;
+    padding-right: 0.4rem;
+    line-height: 0.4rem;
+    color: #222222;
+    /* font-weight: bold; */
+}
+
+.comment .icon-duihua{
+    font-size: 0.4rem;
+    padding-right: 0.14rem;
+    /* width: 0.4rem; */
+}
+
+.comment .num{
+
+}
+
+.comment .icon-shenglve{
+    padding-left: 0.55rem;
+}
+
+
+
+
+
+
 
